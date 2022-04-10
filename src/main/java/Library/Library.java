@@ -9,7 +9,6 @@ public class Library {
     public static void main(String[] args) throws Exception {
 
         ArrayList<Author> authors = new ArrayList<>();
-        ArrayList<Book> aut = new ArrayList<>();
         ArrayList<Genre> genres = new ArrayList<>();
         String input;
 
@@ -44,7 +43,6 @@ public class Library {
                         genres.add(addGenre());
                     } else{
                         Genre genre = genres.get(c);
-                        genre.getBook();
                     }
                     break;
                 case "add genre":

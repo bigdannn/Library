@@ -6,7 +6,7 @@ public class Author {
 
     String firstName;
     String lastName;
-    int i = -1;
+
 
     ArrayList<Book> books = new ArrayList<>();
 
@@ -21,7 +21,6 @@ public class Author {
 
 
     public String toString(){
-        i++;
         return  "Author is " + firstName + " " +  lastName;
     }
 }

@@ -7,7 +7,7 @@ public class Book {
     public String name;
     public String description;
     public int yearOfIssue;
-    public String genre;
+
 
 
     ArrayList<Genre> genres = new ArrayList<>();
@@ -19,6 +19,8 @@ public class Book {
     }
 
     public ArrayList<Genre> getGenre(){
+
         return genres;
+
     }
 }
